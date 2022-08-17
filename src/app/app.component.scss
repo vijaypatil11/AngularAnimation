@@ -1,0 +1,27 @@
+.div-container{
+    width:400px;
+    display: block;
+    margin: auto;
+    .not-btn{
+        padding: 10px;
+        width: 200px;
+        border: none;
+        display: block;
+        margin: 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+    }
+    .red{
+        background: #EF3934;
+    }
+    .yellow{
+        background: #FF9500;
+    }
+    .green{
+        background: #00D563;
+    }
+    .custom{
+        background: #aff;
+    }
+}

@@ -1,0 +1,12 @@
+<lib-notif  *ngIf='red'></lib-notif>
+<!--<lib-notif></lib-notif>-->
+<div class="div-container">
+    <h1>Angular notifcation demo</h1>
+    <button class="not-btn red" (click) = addElement()>Danger</button>
+    <button class="not-btn yellow" (click) = getWarningNotification()>Warning</button>
+    <button class="not-btn green" (click) = getSuccessNotification()>Success</button>
+    <button class="not-btn custom" (click) = getCustomizedNotification()>Customised</button>
+</div>
+
+<div #parent> </div> 
+<router-outlet></router-outlet>

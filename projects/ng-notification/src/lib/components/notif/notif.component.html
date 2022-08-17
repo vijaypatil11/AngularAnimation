@@ -1,0 +1,9 @@
+<div *ngIf="open" class="notif-container">
+    <div class="notif-box" libNotwidth  [setting] = setting >
+        <h4 class="title">{{setting.title}}</h4><span class="close" title="close" (click)="close()">×</span>
+        <div class="notif-body" [innerHTML]=setting.body ></div>
+    </div>
+    <br> 
+    <br><br><br><br>
+</div> 
+  

@@ -1,0 +1,25 @@
+{
+  "name": "angular-notification-alert",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": "^11.2.1",
+    "@angular/core": "^11.2.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "keywords": [
+    "angular",
+    "front-end",
+    "notification",
+    "alert",
+    "component",
+    "standalone",
+    "web",
+    "customizable",
+    "inject it everywhere"
+  ],
+  "author": "Juda Buchahda <jouda.bouchahda@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/miminerd/angular-notification"
+}
